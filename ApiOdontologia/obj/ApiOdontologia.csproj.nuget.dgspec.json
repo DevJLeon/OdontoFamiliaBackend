@@ -1,0 +1,248 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\ApiOdontologia\\ApiOdontologia.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\ApiOdontologia\\ApiOdontologia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\ApiOdontologia\\ApiOdontologia.csproj",
+        "projectName": "ApiOdontologia",
+        "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\ApiOdontologia\\ApiOdontologia.csproj",
+        "packagesPath": "C:\\Users\\T01-037\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\ApiOdontologia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\T01-037\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Aplication\\Aplication.csproj": {
+                "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Aplication\\Aplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Aplication\\Aplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Aplication\\Aplication.csproj",
+        "projectName": "Aplication",
+        "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Aplication\\Aplication.csproj",
+        "packagesPath": "C:\\Users\\T01-037\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Aplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\T01-037\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Domain\\Domain.csproj"
+              },
+              "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\T01-037\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\T01-037\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\T01-037\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\T01-037\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\OdontologiaFamilia\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{DEDDEF96-2FA4-4383-9A03-F106A617B535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplication", "Aplication\Aplication.csproj", "{4AAB940B-8F67-495E-B22C-BE61C37A681D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiOdontologia", "ApiOdontologia\ApiOdontologia.csproj", "{808B503F-6C0C-4336-AF20-7710C9A236F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{FE8AF828-77BA-4924-B644-DCB312AF20C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEDDEF96-2FA4-4383-9A03-F106A617B535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDDEF96-2FA4-4383-9A03-F106A617B535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDDEF96-2FA4-4383-9A03-F106A617B535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDDEF96-2FA4-4383-9A03-F106A617B535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAB940B-8F67-495E-B22C-BE61C37A681D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAB940B-8F67-495E-B22C-BE61C37A681D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAB940B-8F67-495E-B22C-BE61C37A681D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAB940B-8F67-495E-B22C-BE61C37A681D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808B503F-6C0C-4336-AF20-7710C9A236F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808B503F-6C0C-4336-AF20-7710C9A236F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808B503F-6C0C-4336-AF20-7710C9A236F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808B503F-6C0C-4336-AF20-7710C9A236F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8AF828-77BA-4924-B644-DCB312AF20C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8AF828-77BA-4924-B644-DCB312AF20C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8AF828-77BA-4924-B644-DCB312AF20C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8AF828-77BA-4924-B644-DCB312AF20C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
